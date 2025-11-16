@@ -1,7 +1,7 @@
-import { PillProps } from "@/interfaces";
+import { ButtonProps, PillProps } from "@/interfaces";
 
-const Button: React.FC<PillProps> = ({ title, className = "" }) => {
-  return <button className={className}>{title}</button>;
+const Button: React.FC<ButtonProps> = ({ style }) => {
+  return <button className={style}>size</button>;
 };
 
 export default Button;
