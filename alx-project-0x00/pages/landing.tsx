@@ -14,7 +14,7 @@ const Landing: React.FC = () => {
 
       {/* Large */}
 
-      <Button styles="px-6 py-3 text-lg rounded-lg" />
+      <Button styles="px-6 py-3 text-lg rounded-full" />
     </div>
   );
 };
